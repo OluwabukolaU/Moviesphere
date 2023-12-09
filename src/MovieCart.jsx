@@ -10,7 +10,7 @@ const MovieCart = ({ movie }) => {
         <img
           src={
             movie.Poster !== "N/A"
-              ? movie.Poster
+              ? movie.Poster.replace("http://", "https://")
               : "https://via.placeholder.com/400"
           }
           alt={movie.Title}

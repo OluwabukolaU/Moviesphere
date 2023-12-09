@@ -1,10 +1,10 @@
-//9a79e5db
+
 import React, { useState, useEffect } from "react";
 import MovieCart from "./MovieCart";
 import "./App.css";
 import SearchIcon from "./search.svg";
 
-const API_URL = "http://www.omdbapi.com/?apikey=9a79e5db";
+const API_URL = "https://www.omdbapi.com/?apikey=9a79e5db";
 
 /*const movie = {
   Title: "Batman: The Animated Series",
